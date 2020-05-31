@@ -22,6 +22,8 @@ Output of several commands to show the bug:
 
 `swift version`: `Apple Swift version 5.3-dev (LLVM d2c5a6fb91, Swift 4eac5a1f0f) Target: x86_64-apple-darwin19.5.0`
 
+`swift build --version`: `Swift Package Manager - Swift 5.3.0`
+
 `swift build`: Successful
 
 `swift run SPMResources`: (as expected)
