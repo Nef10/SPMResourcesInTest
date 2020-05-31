@@ -42,6 +42,7 @@ Library Consumer File Content: File Content SPMResourcesLibrary
 
 <details><summary>swift test -v: (for SPMResourcesInTests target, broken)</summary>
 <p>
+  
 ```
 /usr/bin/xcrun --sdk macosx --show-sdk-path
 /usr/bin/xcrun --sdk macosx --show-sdk-platform-path
@@ -71,10 +72,12 @@ Test Case '-[SPMResourcesInTests.SPMResourcesInTestTest testFileContent]' starte
 Fatal error: could not load resource bundle: /Applications/Xcode.app/Contents/Developer/usr/bin/SPMResourcesInTest_SPMResourcesInTests.bundle: file /Users/Steffen/Projects/SPMResourcesInTest/.build/x86_64-apple-macosx/debug/SPMResourcesInTests.build/DerivedSources/resource_bundle_accessor.swift, line 7
 Exited with signal code 4
 ```
+
 </p></details>
 
 <details><summary>swift test -v: (for SPMResourcesLibraryTests target, broken)</summary>
 <p>
+  
 ```
 /usr/bin/xcrun --sdk macosx --show-sdk-path
 /usr/bin/xcrun --sdk macosx --show-sdk-platform-path
@@ -104,6 +107,7 @@ Test Case '-[SPMResourcesLibraryTests.SPMResourcesLibraryTests testFileContent]'
 Fatal error: could not load resource bundle: /Applications/Xcode.app/Contents/Developer/usr/bin/SPMResourcesInTest_SPMResourcesLibrary.bundle: file /Users/Steffen/Projects/SPMResourcesInTest/.build/x86_64-apple-macosx/debug/SPMResourcesLibrary.build/DerivedSources/resource_bundle_accessor.swift, line 7
 Exited with signal code 4
 ```
+
 </p></details>
 
 For more information see https://forums.swift.org/t/swift-5-3-spm-resources-in-tests-uses-wrong-bundle-path/37051/2
