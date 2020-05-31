@@ -111,3 +111,5 @@ Exited with signal code 4
 </p></details>
 
 For more information see https://forums.swift.org/t/swift-5-3-spm-resources-in-tests-uses-wrong-bundle-path/37051/2
+
+The bug is filed here: https://bugs.swift.org/browse/SR-12912
